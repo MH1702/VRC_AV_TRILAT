@@ -33,7 +33,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: TRILAT/CORE/Y/POS/Constraint
+    path: TRILAT/DONT_TOUCH_THIS/Y/POS/Constraint
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -52,7 +52,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: TRILAT/CORE/Y/POS/Constraint
+    path: TRILAT/DONT_TOUCH_THIS/Y/POS/Constraint
     classID: 1818360608
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -64,14 +64,14 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3650149073
+      path: 2676300813
       attribute: 12
       script: {fileID: 0}
       typeID: 1818360608
       customType: 31
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3650149073
+      path: 2676300813
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1818360608
@@ -115,7 +115,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Sources.Array.data[0].weight
-    path: TRILAT/CORE/Y/POS/Constraint
+    path: TRILAT/DONT_TOUCH_THIS/Y/POS/Constraint
     classID: 1818360608
     script: {fileID: 0}
   - curve:
@@ -134,7 +134,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Weight
-    path: TRILAT/CORE/Y/POS/Constraint
+    path: TRILAT/DONT_TOUCH_THIS/Y/POS/Constraint
     classID: 1818360608
     script: {fileID: 0}
   m_EulerEditorCurves: []
