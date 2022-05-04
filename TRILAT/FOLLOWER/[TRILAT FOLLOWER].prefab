@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 4772545753648605912}
   - component: {fileID: 4772545753648605913}
   m_Layer: 0
-  m_Name: TRILAT
+  m_Name: TRILAT_FOLLOWER
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
