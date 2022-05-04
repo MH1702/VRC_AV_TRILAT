@@ -17,9 +17,9 @@ The "TRILAT FOLLOWER" will be 2-3 frames behind, depending on which of the 3 sta
 
 # Specifications #
 
-"TRILAT":
-18 - Position Constraints
- 1 - Animator Layer (FX)
- 7 - Animator Paramaters
-32 - (Required) Transforms
- 6 - Contact Receivers
+"TRILAT":\
+18 - Position Constraints\
+ 1 - Animator Layer (FX)\
+ 7 - Animator Paramaters\
+32 - (Required) Transforms\
+ 6 - Contact Receivers\
