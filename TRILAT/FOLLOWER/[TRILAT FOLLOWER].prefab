@@ -1181,56 +1181,6 @@ PositionConstraint:
   m_Sources:
   - sourceTransform: {fileID: 7576263185544400855}
     weight: 1e-39
---- !u!1 &5590120613357955604
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5590120613357955605}
-  - component: {fileID: 5590120613357955602}
-  m_Layer: 0
-  m_Name: Added
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5590120613357955605
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590120613357955604}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5590120614465447019}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360608 &5590120613357955602
-PositionConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590120613357955604}
-  m_Enabled: 1
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffset: {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 5590120613970181465}
-    weight: 2
 --- !u!1 &5590120613448913235
 GameObject:
   m_ObjectHideFlags: 0
@@ -1436,7 +1386,7 @@ GameObject:
   - component: {fileID: 5590120613970181465}
   - component: {fileID: 5590120613970181414}
   m_Layer: 0
-  m_Name: Added (Half)
+  m_Name: ConstraintsAdded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1555,7 +1505,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5590120614676428028}
-  - {fileID: 5590120614702727867}
   - {fileID: 5590120614451632398}
   m_Father: {fileID: 5590120615447639475}
   m_RootOrder: 2
@@ -1643,7 +1592,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5590120615186925179}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360608 &5590120614164069389
 PositionConstraint:
@@ -1662,8 +1611,8 @@ PositionConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 5590120614988771443}
-    weight: 4500
+  - sourceTransform: {fileID: 5590120614419214257}
+    weight: 9000
 --- !u!1 &5590120614224589458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1885,7 +1834,7 @@ GameObject:
   - component: {fileID: 5590120614419214257}
   - component: {fileID: 5590120614419214270}
   m_Layer: 0
-  m_Name: Added (Half)
+  m_Name: ConstraintsAdded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1955,7 +1904,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5590120614058489152}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360608 &5590120614451632399
 PositionConstraint:
@@ -1974,8 +1923,8 @@ PositionConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 5590120614702727867}
-    weight: 4500
+  - sourceTransform: {fileID: 5590120614676428028}
+    weight: 9000
 --- !u!1 &5590120614465447018
 GameObject:
   m_ObjectHideFlags: 0
@@ -2004,7 +1953,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5590120613970181465}
-  - {fileID: 5590120613357955605}
   - {fileID: 5590120615091261705}
   m_Father: {fileID: 4772545754309939795}
   m_RootOrder: 2
@@ -2168,7 +2116,7 @@ GameObject:
   - component: {fileID: 5590120614676428028}
   - component: {fileID: 5590120614676428029}
   m_Layer: 0
-  m_Name: Added (Half)
+  m_Name: ConstraintsAdded
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2209,56 +2157,6 @@ PositionConstraint:
     weight: 1
   - sourceTransform: {fileID: 5590120615398893860}
     weight: 1
---- !u!1 &5590120614702727866
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5590120614702727867}
-  - component: {fileID: 5590120614702727864}
-  m_Layer: 0
-  m_Name: Added
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5590120614702727867
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590120614702727866}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5590120614058489152}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360608 &5590120614702727864
-PositionConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590120614702727866}
-  m_Enabled: 1
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffset: {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 5590120614676428028}
-    weight: 2
 --- !u!1 &5590120614744021815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2352,56 +2250,6 @@ Transform:
   m_Father: {fileID: 5590120613448913232}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &5590120614988771442
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5590120614988771443}
-  - component: {fileID: 5590120614988771440}
-  m_Layer: 0
-  m_Name: Added
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5590120614988771443
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590120614988771442}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5590120615186925179}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1818360608 &5590120614988771440
-PositionConstraint:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5590120614988771442}
-  m_Enabled: 1
-  m_Weight: 1
-  m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_TranslationOffset: {x: 0, y: 0, z: 0}
-  m_AffectTranslationX: 1
-  m_AffectTranslationY: 1
-  m_AffectTranslationZ: 1
-  m_IsContraintActive: 1
-  m_IsLocked: 1
-  m_Sources:
-  - sourceTransform: {fileID: 5590120614419214257}
-    weight: 2
 --- !u!1 &5590120615057374854
 GameObject:
   m_ObjectHideFlags: 0
@@ -2481,7 +2329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5590120614465447019}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1818360608 &5590120615091261718
 PositionConstraint:
@@ -2500,8 +2348,8 @@ PositionConstraint:
   m_IsContraintActive: 1
   m_IsLocked: 1
   m_Sources:
-  - sourceTransform: {fileID: 5590120613357955605}
-    weight: 4500
+  - sourceTransform: {fileID: 5590120613970181465}
+    weight: 9000
 --- !u!1 &5590120615186925178
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,7 +2378,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5590120614419214257}
-  - {fileID: 5590120614988771443}
   - {fileID: 5590120614164069388}
   m_Father: {fileID: 5590120614744021812}
   m_RootOrder: 2
