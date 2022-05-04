@@ -133,6 +133,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: '[TRILAT]'
       objectReference: {fileID: 0}
+    - target: {fileID: 6406934458674293722, guid: 26551f1829041b8468844f39acecfdeb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6406934458674293723, guid: 26551f1829041b8468844f39acecfdeb,
         type: 3}
       propertyPath: m_RootOrder
